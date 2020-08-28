@@ -7,7 +7,7 @@ script:
     - docker images johnboyleeds/node
 
 before_deploy:
-    - echo "$988oBsQI6" | docker login -u "johnboyleeds" --password-stdin
+    - echo "5723331c-e4fe-4cfe-96c8-9a6e449283ff" | docker login -u "johnboyleeds" --password-stdin
 
 deploy:
     provider: script
